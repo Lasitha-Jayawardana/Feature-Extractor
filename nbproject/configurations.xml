@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Config.cpp</itemPath>
+      <itemPath>Config.h</itemPath>
+      <itemPath>Conversation.cpp</itemPath>
+      <itemPath>Conversation.h</itemPath>
+      <itemPath>ConversationFeatures.cpp</itemPath>
+      <itemPath>ConversationFeatures.h</itemPath>
+      <itemPath>ConversationReconstructor.cpp</itemPath>
+      <itemPath>ConversationReconstructor.h</itemPath>
+      <itemPath>FeatureUpdater.h</itemPath>
+      <itemPath>FeatureUpdaterCount.cpp</itemPath>
+      <itemPath>FeatureUpdaterCount.h</itemPath>
+      <itemPath>FeatureUpdaterTime.cpp</itemPath>
+      <itemPath>FeatureUpdaterTime.h</itemPath>
+      <itemPath>FiveTuple.cpp</itemPath>
+      <itemPath>FiveTuple.h</itemPath>
+      <itemPath>IcmpConversation.cpp</itemPath>
+      <itemPath>IcmpConversation.h</itemPath>
+      <itemPath>IntervalKeeper.cpp</itemPath>
+      <itemPath>IntervalKeeper.h</itemPath>
+      <itemPath>IpDatagram.cpp</itemPath>
+      <itemPath>IpDatagram.h</itemPath>
+      <itemPath>IpFragment.cpp</itemPath>
+      <itemPath>IpFragment.h</itemPath>
+      <itemPath>IpReassembler.cpp</itemPath>
+      <itemPath>IpReassembler.h</itemPath>
+      <itemPath>IpReassemblyBuffer.cpp</itemPath>
+      <itemPath>IpReassemblyBuffer.h</itemPath>
+      <itemPath>IpReassemblyBufferHoleList.cpp</itemPath>
+      <itemPath>IpReassemblyBufferHoleList.h</itemPath>
+      <itemPath>Packet.cpp</itemPath>
+      <itemPath>Packet.h</itemPath>
+      <itemPath>ReferenceCounter.cpp</itemPath>
+      <itemPath>ReferenceCounter.h</itemPath>
+      <itemPath>Sniffer.cpp</itemPath>
+      <itemPath>Sniffer.h</itemPath>
+      <itemPath>StatsCollector.h</itemPath>
+      <itemPath>StatsEngine.cpp</itemPath>
+      <itemPath>StatsEngine.h</itemPath>
+      <itemPath>StatsPerHost.cpp</itemPath>
+      <itemPath>StatsPerHost.h</itemPath>
+      <itemPath>StatsPerService.cpp</itemPath>
+      <itemPath>StatsPerService.h</itemPath>
+      <itemPath>StatsPerServiceWithSrcPort.cpp</itemPath>
+      <itemPath>StatsPerServiceWithSrcPort.h</itemPath>
+      <itemPath>StatsWindow.cpp</itemPath>
+      <itemPath>StatsWindow.h</itemPath>
+      <itemPath>StatsWindowCount.cpp</itemPath>
+      <itemPath>StatsWindowCount.h</itemPath>
+      <itemPath>StatsWindowTime.cpp</itemPath>
+      <itemPath>StatsWindowTime.h</itemPath>
+      <itemPath>TcpConnection.cpp</itemPath>
+      <itemPath>TcpConnection.h</itemPath>
+      <itemPath>Timestamp.cpp</itemPath>
+      <itemPath>Timestamp.h</itemPath>
+      <itemPath>UdpConversation.cpp</itemPath>
+      <itemPath>UdpConversation.h</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>net.cpp</itemPath>
+      <itemPath>net.h</itemPath>
+      <itemPath>types.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>pcap</linkerLibLibItem>
+            <linkerLibLibItem>curl</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Conversation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Conversation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConversationFeatures.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConversationFeatures.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConversationReconstructor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConversationReconstructor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeatureUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterCount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterCount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FiveTuple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FiveTuple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IcmpConversation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IcmpConversation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntervalKeeper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IntervalKeeper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpDatagram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpDatagram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpFragment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpFragment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpReassembler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpReassembler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpReassemblyBuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpReassemblyBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpReassemblyBufferHoleList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpReassemblyBufferHoleList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Packet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Packet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReferenceCounter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ReferenceCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sniffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sniffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsCollector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsEngine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsEngine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsPerHost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsPerHost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsPerService.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsPerService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsPerServiceWithSrcPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsPerServiceWithSrcPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsWindowCount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsWindowCount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsWindowTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsWindowTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TcpConnection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TcpConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timestamp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Timestamp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UdpConversation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UdpConversation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="net.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="net.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Conversation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Conversation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConversationFeatures.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConversationFeatures.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConversationReconstructor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConversationReconstructor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeatureUpdater.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterCount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterCount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeatureUpdaterTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FiveTuple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FiveTuple.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IcmpConversation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IcmpConversation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IntervalKeeper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IntervalKeeper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpDatagram.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpDatagram.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpFragment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpFragment.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpReassembler.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpReassembler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpReassemblyBuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpReassemblyBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpReassemblyBufferHoleList.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpReassemblyBufferHoleList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Packet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Packet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReferenceCounter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ReferenceCounter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sniffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sniffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsCollector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsEngine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsEngine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsPerHost.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsPerHost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsPerService.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsPerService.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsPerServiceWithSrcPort.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsPerServiceWithSrcPort.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsWindow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsWindow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsWindowCount.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsWindowCount.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StatsWindowTime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StatsWindowTime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TcpConnection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TcpConnection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Timestamp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Timestamp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UdpConversation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UdpConversation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="net.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="net.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="types.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
